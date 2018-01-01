@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.terminal.theme.dark"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay android:targetPackage="com.android.terminal" android:priority="1"/>
+
+    <application android:label="@string/overlay_dark_title" android:hasCode="false"/>
+</manifest>
