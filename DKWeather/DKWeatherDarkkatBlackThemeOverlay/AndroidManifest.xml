@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.darkkatrom.dkweather.theme.darkkatblack"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay android:targetPackage="net.darkkatrom.dkweather" android:priority="1"/>
+
+    <application android:label="@string/overlay_darkkat_black_title" android:hasCode="false"/>
+</manifest>
